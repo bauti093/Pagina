@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">    <!--Idioma en español-->
+  <head>
+    <meta http-equiv="refresh" content="30" />  <!--recarga la pagina cada 10 seg -->
+    <meta name="author" content="Bautista Moran" /> <!--autor de la pagina -->
+    <meta name="description" content="Esta es mi primer pagina web" />  <!--descripcion -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="diseño.css"/>
+    <meta charset="utf-8"/>
+    <title></title>
+  </head>
+  <body>
+    <h1 id="titulo">Hola esta es mi nueva pagina web</h1>
+    <p id="descripcion">Me llamo Bautista Moran, tengo 15 años y estoy aprendiendo a diseñar paginas web.</p>
+    <div class="peso">
+      <h2> Tenes ganas de saber tu peso en marte o jupiter?</h2>
+      <img src="http://www.expressnews.uk.com/images/showid/680974" id="imagen"/>
+      <br/>
+      <input type="button" value="Saber peso" id="boton"/>
+    </div>
+    <p id="todo"></p>
+    <div class="canvas">
+      <h1 id="canvas">Dibujo en canvas</h1>
+      <p id="lineas">Cuantas lineas quieres?
+      <input type="text" id="texto_lineas"/>
+      <input type="button" value="A darle!" id="botoncito"/>
+      </p>
+      <canvas width="300"height="300" id="dibujito"></canvas>
+      <p>Asi queda tu dibujo!!</p>
+    </div>
+    <script src="planetas.js"></script>
+    <script src="dibujo.js"></script>
+  </body>
+</html>
